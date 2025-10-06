@@ -20,6 +20,9 @@ data_check:
   kl_threshold: 0.2
 train_val_test_split:
   input: "clean_sample.csv:latest"
+train_random_forest:
+  trainval_artifact: "trainval_data.csv:latest"
+  output_artifact: "random_forest_export"
 modeling:
   # Fraction of data to use for test (the remaining will be used for train and validation)
   test_size: 0.2
