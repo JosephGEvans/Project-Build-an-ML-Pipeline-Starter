@@ -10,6 +10,8 @@ In this project you will build such a pipeline.
 
 https://wandb.ai/josephguestevans-western-governors-university/nyc_airbnb/
 
+https://github.com/JosephGEvans/Project-Build-an-ML-Pipeline-Starter/tree/1.0.4
+
 ## Table of contents
 
 - [Preliminary steps](#preliminary-steps)
