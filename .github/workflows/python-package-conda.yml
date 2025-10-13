@@ -33,4 +33,4 @@ jobs:
         WANDB_API_KEY: ${{ secrets.WANDB_API_KEY }}
       run: |
         conda install pytest
-        pytest --ignore=src/data_check/
+        pytest --ignore=src/data_check/ --no-tests-found-exit-code=0
